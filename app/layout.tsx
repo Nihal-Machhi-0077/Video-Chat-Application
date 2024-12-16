@@ -11,11 +11,8 @@ import { Toaster } from "@/components/ui/toaster";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "YOOM",
+  title: "video Chat Application",
   description: "Video calling App",
-  icons: {
-    icon: "/icons/logo.svg",
-  },
 };
 
 export default function RootLayout({
